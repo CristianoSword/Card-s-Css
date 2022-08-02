@@ -1,0 +1,22 @@
+.card {
+    flex: 1 1 50%;
+    position: relative;
+    border: 1px solid #efefef;
+  }
+  
+  .card-content {
+    padding: 0 0 30px;
+  }
+  
+  .card-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .card-details-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
